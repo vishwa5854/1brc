@@ -51,21 +51,21 @@ build cmake_object_order_depends_target_1brc: phony || CMakeFiles/1brc.dir
 
 build CMakeFiles/1brc.dir/main.c.o: C_COMPILER__1brc_unscanned_Debug /home/z/CLionProjects/1brc/main.c || cmake_object_order_depends_target_1brc
   DEP_FILE = CMakeFiles/1brc.dir/main.c.o.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -ansi -pg -Wall -Werror -Wextra -Wformat=2 -Wjump-misses-init -Wlogical-op -Wpedantic -Wshadow -g -std=gnu11 -fdiagnostics-color=always
   INCLUDES = -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/sysprof-6
   OBJECT_DIR = CMakeFiles/1brc.dir
   OBJECT_FILE_DIR = CMakeFiles/1brc.dir
 
 build CMakeFiles/1brc.dir/src/zfile.c.o: C_COMPILER__1brc_unscanned_Debug /home/z/CLionProjects/1brc/src/zfile.c || cmake_object_order_depends_target_1brc
   DEP_FILE = CMakeFiles/1brc.dir/src/zfile.c.o.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -ansi -pg -Wall -Werror -Wextra -Wformat=2 -Wjump-misses-init -Wlogical-op -Wpedantic -Wshadow -g -std=gnu11 -fdiagnostics-color=always
   INCLUDES = -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/sysprof-6
   OBJECT_DIR = CMakeFiles/1brc.dir
   OBJECT_FILE_DIR = CMakeFiles/1brc.dir/src
 
 build CMakeFiles/1brc.dir/src/utils.c.o: C_COMPILER__1brc_unscanned_Debug /home/z/CLionProjects/1brc/src/utils.c || cmake_object_order_depends_target_1brc
   DEP_FILE = CMakeFiles/1brc.dir/src/utils.c.o.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -ansi -pg -Wall -Werror -Wextra -Wformat=2 -Wjump-misses-init -Wlogical-op -Wpedantic -Wshadow -g -std=gnu11 -fdiagnostics-color=always
   INCLUDES = -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/sysprof-6
   OBJECT_DIR = CMakeFiles/1brc.dir
   OBJECT_FILE_DIR = CMakeFiles/1brc.dir/src
@@ -79,7 +79,7 @@ build CMakeFiles/1brc.dir/src/utils.c.o: C_COMPILER__1brc_unscanned_Debug /home/
 # Link the executable 1brc
 
 build 1brc: C_EXECUTABLE_LINKER__1brc_Debug CMakeFiles/1brc.dir/main.c.o CMakeFiles/1brc.dir/src/zfile.c.o CMakeFiles/1brc.dir/src/utils.c.o
-  FLAGS = -g
+  FLAGS = -ansi -pg -Wall -Werror -Wextra -Wformat=2 -Wjump-misses-init -Wlogical-op -Wpedantic -Wshadow -g
   LINK_LIBRARIES = -lglib-2.0
   OBJECT_DIR = CMakeFiles/1brc.dir
   POST_BUILD = :

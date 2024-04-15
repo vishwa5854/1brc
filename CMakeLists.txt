@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.27)
 project(1brc C)
 
 set(CMAKE_C_STANDARD 11)
-#set(CMAKE_C_FLAGS "-O3 -ansi -g -Wall -Werror -Wextra -Wformat=2 -Wjump-misses-init -Wlogical-op -Wpedantic -Wshadow")
+set(CMAKE_C_FLAGS "-ansi -pg -Wall -Werror -Wextra -Wformat=2 -Wjump-misses-init -Wlogical-op -Wpedantic -Wshadow")
 
 find_package(PkgConfig REQUIRED)
 pkg_search_module(GLIB REQUIRED glib-2.0)

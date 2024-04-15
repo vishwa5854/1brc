@@ -5,7 +5,9 @@
 #include "../include/structures.h"
 
 void entry_init(Entry *entry) {
-    (void) memset(entry->station_name, '\0', sizeof(entry->station_name));
+    entry->station_name.start_ptr = NULL;
+    entry->station_name.length = 0;
+
     entry->temperature = 0;
     // initialising with a greater value out of the given range
     entry->min = 200;
