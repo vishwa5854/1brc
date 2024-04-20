@@ -1,8 +1,3 @@
-/****************************************************************************************/
-/***************** This file has file utils for better IO performance. ******************/
-/*************** Created By: Kashi Vishwanath Bondugula on June 24 2023 *****************/
-/****************************************************************************************/
-
 #include "../include/zfile.h"
 
 ssize_t zread(ZFile *z_file, unsigned char buff[], ssize_t n_bytes) {
